@@ -1,13 +1,11 @@
 /* =================================
 ------------------------------------
-	Game Warrior Template
-	Version: 1.0
+	Game 
  ------------------------------------ 
  ====================================*/
 
 
 'use strict';
-
 
 $(window).on('load', function() {
 	/*------------------
@@ -61,19 +59,6 @@ $(window).on('load', function() {
 			$(this).html(index);
 			$(this).append('<span>.</span>');
 		}
-	});
-
-
-	/*------------------
-		News Ticker
-	--------------------*/
-	$('.news-ticker').marquee({
-	    duration: 10000,
-	    //gap in pixels between the tickers
-	    //gap: 200,
-	    delayBeforeStart: 0,
-	    direction: 'left',
-	    duplicated: true
 	});
 
 })(jQuery);
